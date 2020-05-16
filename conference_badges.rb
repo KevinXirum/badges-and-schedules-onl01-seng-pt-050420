@@ -12,7 +12,7 @@ end
 
 def assign_rooms(speakers)
   assign = []
-  speakers.each
+  speakers.each_with_index {|speaker| index}
  end 
  return room_array
 end
