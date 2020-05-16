@@ -18,12 +18,5 @@ def assign_rooms(speakers)
 end
 
 def printer(array)
-  batch_badge_creator(array) do |value|
-    puts value
-  end
   
-  assign_rooms(array) do |value|
-    puts value
-  end
-  return printer(array)
 end
