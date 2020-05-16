@@ -1,7 +1,7 @@
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
-attendees = [""
+attendees = ["Edsger"]
 
 def batch_badge_creator(attendees)
   badges = []
