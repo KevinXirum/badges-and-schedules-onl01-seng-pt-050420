@@ -10,9 +10,9 @@ def batch_badge_creator(attendees)
   return badges
 end
 
-def assign_rooms(array)
+def assign_rooms(speakers)
   assign = []
-  speaker
+  speakers.each
  end 
  return room_array
 end
